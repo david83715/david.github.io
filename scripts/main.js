@@ -18,7 +18,7 @@ if (!localStorage.getItem('name')) {
     setUserName();
 } else {
     var storedName =localStorage.getItem('name');
-    myHeading.innerHTML = 'Mitac is porductive! right? ' + storedName;
+    myHeading.innerHTML = 'Mitac is too porductive! right? ' + storedName;
 }
 myButton.onclick = function() {
     setUserName();
